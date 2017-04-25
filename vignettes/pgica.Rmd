@@ -1,0 +1,23 @@
+---
+title: "PGICA"
+author: "Brian Caffo"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+bibliography: bibliography.bib
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Introduction
+
+ICA (independent components analysis) algorithms are a collection of
+statistical decompositions used for blind source separation. Our procedure
+uses the procedures developed by Eloyan [@eloyan2013likelihood, @eloyan2013semiparametric]. ICA has become a standard tool in functional
+neuroimaging using magnetic resonance imaging. This package was built with
+that use in mind. However, it can be used generally.
+
+## Useage
+
+
