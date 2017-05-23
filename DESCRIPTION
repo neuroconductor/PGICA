@@ -1,12 +1,14 @@
 Package: PGICA
 Type: Package
 Title: Parallel Group ICA Algorithm
-Version: 1.0
+Version: 1.0.1
 Date: 2014-11-12
+Maintainer: Brian Caffo <bcaffo@gmail.com>
 Authors@R: c(person(given = "Shaojie", family = "Chen", role = c("aut")), 
-   person(given = "Brian", family = "Caffo", role = c("ths", "cre"), 
+   person(given = "Brian", family = "Caffo", role = c("ths", "cre", "aut"), 
      email = "bcaffo@gmail.com")) 
-Description: A Group ICA Algorithm that can run in parallel on an SGE platform or multi-core PCs
+Description: A Group ICA Algorithm that can run in parallel on an SGE 
+    platform or multi-core PCs.
 License: GPL-2
 Imports: parallel, fastICA
 Packaged: 2014-11-19 16:15:49 UTC; Jason

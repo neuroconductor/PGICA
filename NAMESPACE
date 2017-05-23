@@ -1,2 +1,3 @@
 export(mica,StVal)
 import(parallel,fastICA)
+importFrom("stats", "cor", "dnorm", "nlm", "quantile", "sd")
